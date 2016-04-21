@@ -19,12 +19,12 @@
             android:id="@+id/edit_text_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name" />
+            android:hint="Nombre" />
 
         <TextView
             style="@style/HeaderTextStyle"
             android:padding="8dp"
-            android:text="toppings" />
+            android:text="extras:" />
 
         <CheckBox
             android:id="@+id/whipped_checkbox"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="24dp"
             android:paddingStart="24dp"
-            android:text="Whipped cream"
+            android:text="Crema"
             android:textSize="16sp" />
 
         <CheckBox

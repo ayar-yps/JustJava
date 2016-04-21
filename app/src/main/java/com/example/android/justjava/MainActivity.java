@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity {
         int numberOfCoffes = quantity;
         int total = calculateTotaPrice(numberOfCoffes, hasWhipedCream, hasChocolate);
 
-        orderSummary = "Name: " + name;
-        orderSummary += "\nAdd whipped cream? " + hasWhipedCream;
-        orderSummary += "\nAdd chocolate? " + hasChocolate;
-        orderSummary += "\nQuantity: " + numberOfCoffes;
-        orderSummary += "\nTotal: $ " + total;
-        orderSummary += "\nThank you!";
+        orderSummary = "Nombre: " + name;
+        orderSummary += "\nAñadir crema? " + hasWhipedCream;
+        orderSummary += "\nAñadir chocolate? " + hasChocolate;
+        orderSummary += "\nCantidad: " + numberOfCoffes;
+        orderSummary += "\nTotal: Bs " + total;
+        orderSummary += "\nGracias!";
 
         return (orderSummary);
     }
